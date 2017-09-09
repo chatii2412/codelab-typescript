@@ -1,5 +1,5 @@
 class Person {
-
+  private _name = "chatii2412";
 }
 
-new Person()
+const p = new Person();
