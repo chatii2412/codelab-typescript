@@ -5,3 +5,6 @@ var isReady = false;
 var isOk = new Boolean(true);
 isOk = isReady;
 isReady = isOk; // Failed.
+/* undefined & null are subtypes of all other types. */
+var isReady2 = null;
+var isReady3 = null; // strictNullChecks: true
