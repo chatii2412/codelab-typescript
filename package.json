@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"transpile": "tsc",
+		"watch": "tsc --watch"
+	},
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
+}
