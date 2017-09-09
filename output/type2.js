@@ -2,8 +2,8 @@
 /* let vs const */
 var a = "aaa";
 var b = "bbb";
-var c = "ccc";
-var d = "ddd"; // type inference failed
+var c = "ccc"; // c: string
+var d = "ddd"; // d: 'ddd'(literal). See chapter 11.
 var e = {
     f: "fff",
 };
