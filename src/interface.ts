@@ -17,11 +17,14 @@ const chatii2: { name: string; age: number; } = {
 interface Person {
   name: string;
   age: number;
+  company?: string;
 }
 
 function Hello2(p: Person): void {
   console.log(p.name);
   console.log(p.age);
+
+  console.log(p.company); // exception(optional) handling needed
 }
 
 const mark: Person = {
@@ -29,4 +32,11 @@ const mark: Person = {
   age: 35,
 };
 
+const anna: Person = {
+  name: "Anna",
+  age: 35,
+  company: "The Good Company",
+};
+
 Hello2(mark);
+Hello2(anna);
